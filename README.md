@@ -131,9 +131,8 @@ python-mini-projects/
 └── refactoring-dry-principle/
 
 #Dokumentasi
-
-dice-rolling/
-number-guessing/
- rock-paper-scissors/
-qr-code-generator/
-refactoring-dry-principle/
+dice-rolling
+number-guessing
+ rock-paper-scissors
+qr-code-generator
+refactoring-dry-principle
