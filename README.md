@@ -140,35 +140,36 @@ Masuk ke folder proyek:
 
 bash
 Copy code
-cd python-mini-projects
+(cd python-mini-projects)
 3. Membuat Virtual Environment
 Virtual environment digunakan untuk mengisolasi dependency proyek.
 
 bash
 Copy code
-python -m venv venv
+(python -m venv venv)
 Folder venv/ akan dibuat secara lokal dan tidak diunggah ke GitHub karena tercantum di .gitignore.
 
 4. Mengaktifkan Virtual Environment
 Windows (PowerShell / CMD)
 bash
 Copy code
-venv\Scripts\activate
+(venv\Scripts\activate)
 macOS / Linux
 bash
 Copy code
-source venv/bin/activate
+(source venv/bin/activate)
 Jika berhasil, terminal akan menampilkan:
 
 scss
 Copy code
 (venv)
+
 5. Instalasi Dependency
 Install seluruh library yang dibutuhkan menggunakan requirements.txt:
 
 bash
 Copy code
-pip install -r requirements.txt
+(pip install -r requirements.txt)
 Dependency utama yang digunakan antara lain:
 
 qrcode[pil] (untuk QR Code Generator)
@@ -179,32 +180,35 @@ Setiap program dapat dijalankan secara terpisah dari folder src/.
 a. Dice Rolling Game
 bash
 Copy code
-python src/dice_rolling/main.py
+(python src/dice_rolling/main.py)
+
 b. Number Guessing Game
 bash
 Copy code
-python src/number_guessing/main.py
+(python src/number_guessing/main.py)
+
 c. Rock, Paper, Scissors Game
 bash
 Copy code
-python src/rock_paper_scissors/main.py
+(python src/rock_paper_scissors/main.py)
+
 d. QR Code Generator
 ## QR Code Generator – Cara Menjalankan
 
 ### Langkah Menjalankan
 1. Aktifkan virtual environment:
-   venv\Scripts\activate
+   (venv\Scripts\activate)
    
 Install dependency:
 
 bash
 Copy code
-pip install -r requirements.txt
+(pip install -r requirements.txt)
 Jalankan program:
 
 bash
 Copy code
-python src/qr_code_generator/qr_code_generator.py
+(python src/qr_code_generator/qr_code_generator.py)
 Masukkan teks atau URL, lalu nama file (contoh: qrcode.png).
 
 Output
@@ -216,7 +220,7 @@ Setelah selesai menjalankan program, virtual environment dapat dinonaktifkan den
 
 bash
 Copy code
-deactivate
+(deactivate)
 
 8. Catatan Penting
 Jika program tampak berhenti, kemungkinan sedang menunggu input pengguna
