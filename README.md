@@ -6,8 +6,8 @@
 ## 1. Pendahuluan
 Repositori ini berisi kumpulan **mini project Python** yang dikerjakan sebagai bagian dari **tugas individu** dengan pendekatan *replikasi berbasis pemahaman*. Proyek-proyek di dalam repositori ini mengacu pada materi video dan handbook *Python Projects for Beginners*.
 
-Seluruh kode **tidak diunggah ulang secara mentah**, melainkan:
-- Ditulis ulang dengan pemahaman sendiri
+Seluruh kode program yang di replikasi
+
 - Disusun ulang agar lebih terstruktur
 - Diberi komentar penjelasan
 
