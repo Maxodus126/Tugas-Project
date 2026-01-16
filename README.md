@@ -114,11 +114,6 @@ Struktur repositori disusun agar rapi dan mudah dipahami.
 
 
 #Dokumentasi ada di struktur docs/
-dice-rolling
-number-guessing
- rock-paper-scissors
-qr-code-generator
-refactoring-dry-principle
 
 
 
