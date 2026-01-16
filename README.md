@@ -112,24 +112,8 @@ Tahap refactoring dilakukan pada program **Rock, Paper, Scissors** dengan tujuan
 ## 4. Struktur Repositori
 Struktur repositori disusun agar rapi dan mudah dipahami.
 
-python-mini-projects/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── src/
-│ ├── dice_rolling/
-│ ├── number_guessing/
-│ ├── rock_paper_scissors/
-│ ├── qr_code_generator/
-│ └── refactoring_dry_principle/
-└── docs/
-├── dice-rolling/
-├── number-guessing/
-├── rock-paper-scissors/
-├── qr-code-generator/
-└── refactoring-dry-principle/
 
-#Dokumentasi
+#Dokumentasi ada di struktur docs/
 dice-rolling
 number-guessing
  rock-paper-scissors
@@ -230,6 +214,7 @@ Masukkan teks atau URL, lalu nama file (contoh: qrcode.png).
 
 Output
 Program akan menghasilkan file QR Code dalam bentuk gambar yang dapat dipindai menggunakan kamera atau aplikasi QR scanner.
+
 7. Menonaktifkan Virtual Environment
 
 Setelah selesai menjalankan program, virtual environment dapat dinonaktifkan dengan perintah:
@@ -237,6 +222,7 @@ Setelah selesai menjalankan program, virtual environment dapat dinonaktifkan den
 bash
 Copy code
 deactivate
+
 8. Catatan Penting
 Jika program tampak berhenti, kemungkinan sedang menunggu input pengguna
 Jangan menekan Ctrl + C kecuali ingin menghentikan program
