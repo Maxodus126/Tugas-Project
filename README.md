@@ -196,7 +196,7 @@ d. QR Code Generator
 ## QR Code Generator – Cara Menjalankan
 
 ### Langkah Menjalankan
-1. Aktifkan virtual environment:
+ Aktifkan virtual environment:
    (venv\Scripts\activate)
    
 Install dependency:
