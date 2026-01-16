@@ -113,7 +113,8 @@ Tahap refactoring dilakukan pada program **Rock, Paper, Scissors** dengan tujuan
 Struktur repositori disusun agar rapi dan mudah dipahami.
 
 
-#Dokumentasi ada di struktur docs/
+
+## Dokumentasi hasil ada di struktur folder docs/
 
 
 
