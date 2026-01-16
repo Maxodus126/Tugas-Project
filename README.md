@@ -130,7 +130,8 @@ Pastikan perangkat telah memenuhi persyaratan berikut:
 - Sistem operasi Windows, macOS, atau Linux
 - Terminal / Command Prompt / PowerShell
 
-python --version
+(python --version)
+
 2. Clone Repositori
 Clone repositori ini ke komputer lokal:
 
@@ -142,6 +143,7 @@ Masuk ke folder proyek:
 bash
 Copy code
 (cd python-mini-projects)
+
 3. Membuat Virtual Environment
 Virtual environment digunakan untuk mengisolasi dependency proyek.
 
