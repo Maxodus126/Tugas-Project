@@ -1,5 +1,5 @@
 # Python Mini Projects  
-## Replikasi, Refactoring, dan Dokumentasi
+## Replikasi dan Dokumentasi
 
 ---
 
@@ -10,7 +10,7 @@ Seluruh kode **tidak diunggah ulang secara mentah**, melainkan:
 - Ditulis ulang dengan pemahaman sendiri
 - Disusun ulang agar lebih terstruktur
 - Diberi komentar penjelasan
-- Direfaktorisasi menggunakan prinsip **DRY (Don’t Repeat Yourself)**
+
 
 Repositori ini juga berfungsi sebagai **portofolio pembelajaran** untuk menunjukkan kemampuan dasar pemrograman Python dan praktik awal rekayasa perangkat lunak.
 
@@ -22,9 +22,8 @@ Tujuan utama pengerjaan repositori ini adalah:
 2. Melatih penggunaan struktur kontrol seperti percabangan dan perulangan  
 3. Membiasakan penggunaan fungsi dan modularisasi kode  
 4. Menerapkan struktur data yang sesuai (tuple, dictionary)  
-5. Menerapkan prinsip **clean code** dan **DRY** melalui refactoring  
-6. Mengelola dependency menggunakan virtual environment  
-7. Menyusun dokumentasi teknis dalam Bahasa Indonesia  
+5. Mengelola dependency menggunakan virtual environment  
+6. Menyusun dokumentasi teknis dalam Bahasa Indonesia  
 
 ---
 
@@ -136,3 +135,109 @@ number-guessing
  rock-paper-scissors
 qr-code-generator
 refactoring-dry-principle
+
+
+
+## Cara Menjalankan Program
+
+Bagian ini menjelaskan langkah-langkah untuk menjalankan seluruh program yang ada di repositori ini.
+
+---
+
+### 1. Persyaratan Sistem
+Pastikan perangkat telah memenuhi persyaratan berikut:
+- Python versi **3.8 atau lebih baru**
+- Sistem operasi Windows, macOS, atau Linux
+- Terminal / Command Prompt / PowerShell
+
+python --version
+2. Clone Repositori
+Clone repositori ini ke komputer lokal:
+
+bash
+Copy code
+git clone <url-repository-github>
+Masuk ke folder proyek:
+
+bash
+Copy code
+cd python-mini-projects
+3. Membuat Virtual Environment
+Virtual environment digunakan untuk mengisolasi dependency proyek.
+
+bash
+Copy code
+python -m venv venv
+Folder venv/ akan dibuat secara lokal dan tidak diunggah ke GitHub karena tercantum di .gitignore.
+
+4. Mengaktifkan Virtual Environment
+Windows (PowerShell / CMD)
+bash
+Copy code
+venv\Scripts\activate
+macOS / Linux
+bash
+Copy code
+source venv/bin/activate
+Jika berhasil, terminal akan menampilkan:
+
+scss
+Copy code
+(venv)
+5. Instalasi Dependency
+Install seluruh library yang dibutuhkan menggunakan requirements.txt:
+
+bash
+Copy code
+pip install -r requirements.txt
+Dependency utama yang digunakan antara lain:
+
+qrcode[pil] (untuk QR Code Generator)
+
+6. Menjalankan Program
+Setiap program dapat dijalankan secara terpisah dari folder src/.
+
+a. Dice Rolling Game
+bash
+Copy code
+python src/dice_rolling/main.py
+b. Number Guessing Game
+bash
+Copy code
+python src/number_guessing/main.py
+c. Rock, Paper, Scissors Game
+bash
+Copy code
+python src/rock_paper_scissors/main.py
+d. QR Code Generator
+## QR Code Generator – Cara Menjalankan
+
+### Langkah Menjalankan
+1. Aktifkan virtual environment:
+   venv\Scripts\activate
+   
+Install dependency:
+
+bash
+Copy code
+pip install -r requirements.txt
+Jalankan program:
+
+bash
+Copy code
+python src/qr_code_generator/qr_code_generator.py
+Masukkan teks atau URL, lalu nama file (contoh: qrcode.png).
+
+Output
+Program akan menghasilkan file QR Code dalam bentuk gambar yang dapat dipindai menggunakan kamera atau aplikasi QR scanner.
+7. Menonaktifkan Virtual Environment
+
+Setelah selesai menjalankan program, virtual environment dapat dinonaktifkan dengan perintah:
+
+bash
+Copy code
+deactivate
+8. Catatan Penting
+Jika program tampak berhenti, kemungkinan sedang menunggu input pengguna
+Jangan menekan Ctrl + C kecuali ingin menghentikan program
+File hasil (misalnya QR Code) akan tersimpan di folder proyek sesuai nama file yang dimasukkan
